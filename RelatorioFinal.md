@@ -40,5 +40,5 @@ Depois de alguns testes e pesquisas de transformações, foi possível obter um 
 
 Resultados
 
-Com o processamento das imagens, foi possível obter um resultado muito próximo do esperado. O programa ainda erra alguns caracteres, por exemplo, troca de s por 5, de vírgula por ponto-vírgula, de 0 por 6, são os principais erros. Mas na maioria dos casos, funciona muito bem, calculado cerca de 95% de acerto dos caracteres.
+Com o processamento das imagens, foi possível obter um resultado muito próximo do esperado. O programa ainda erra alguns caracteres, por exemplo, troca de s por 5, de vírgula por ponto-vírgula, de 0 por 6, são os principais erros. Mas na maioria dos casos, funciona muito bem, foi calculado cerca de 95% de acerto dos caracteres.
 No futuro, esses casos que possuem maior incidência de erros, poderiam ser tratados separadamente para diminuir a quantidade  de erros, além de estudar outras métodos para pré-processar a imagem antes de rodar o Tesseract
