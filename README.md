@@ -13,4 +13,4 @@ Exemplos de imagens:
  Métodos a serem utilizados:
   - Técnicas de realce
   - Remoção de ruídos
-  - Técnicas de mosaico, no caso do código vir separado em várias imagens
+  - Transformações Morfológicas
