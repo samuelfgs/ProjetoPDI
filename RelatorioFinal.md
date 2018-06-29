@@ -10,32 +10,12 @@ Solução
 
 Para a implementação do projeto foi utilizado a biblioteca Tesseract, da Google, de OCR e a biblioteca OpenCv par Python.
 Primeiro passo, do projeto foi capturar uma imagem e fazer o reconhecimento do texto, usando o Tesseract.
-| FirstHeader | SecondHeader |
+
+| Código | Texto Reconhecido |
 |-------------|--------------|
-|<img src="images/sample2.png">| Texto reconhecido:
-	mam: Gunman
-  mum: «at»  
-  uslng namsvate 5m;
-  m lam” (  
-	m  
-	(111))”  
-	markstnnq. m) In;  
-	mom rB' 14:; m) (  
-	mm; 5;  
-	Ms!»  
-	)  
-	mom ;  
-	smug s;  
-	wlsl  
-	- 14:: m) (  
-	)  
-	m m  
-	fuﬂnalkstnny. 1n!) .. : up)  
-	”u. mun-1 ) aw  
-	m K n.5unnd;  
-	(“mm  
-	return  
- |
+|<img src="images/sample2.png">| <Texto reconhecido:<br>mam: Gunman<br>mum: «at»<br>uslng namsvate 5m;<br>m lam” (<br>m<br>(111))”<br>markstnnq. m) In;<br>mom rB' 14:; m) ( <br> mm; 5; <br>Ms!»<br>)<br>mom ;<br>smug s;<br>wlsl<br>- 14:: m) (<br>)  <br>m m <br>fuﬂnalkstnny. 1n!) .. : up)<br>”u. mun-1 ) aw<br>m K n.5unnd;<br>(“mm <br>return |
+
+
  Como pode ser observado, os resultados iniciais foram ruins. Para melhorar os resultados, foram utilizadas algumas técnicas aprendidas em aula, a fim de processar a imagem. 
 	Como as cores da sintaxe não fazem diferença no código, a imagem foi convertida para escala de cinza. Depois disso, a primeira técnica de realce implementada foi a de equalização de histogramas, porém o resultado não foi satisfatório
   
