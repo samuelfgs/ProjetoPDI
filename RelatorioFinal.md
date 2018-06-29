@@ -24,68 +24,19 @@ Primeiro passo, do projeto foi capturar uma imagem e fazer o reconhecimento do t
 |<img src="images/equalization.png" width="250px" height="400px">|Texto reconhecido: <br>ﬁnctuda dust“<br>ﬁncmle up: . .<br>using namespaue std:<br>int: “in“ {<br>int: ll:<br>aim-:11:<br>lap-astring.1nt=- In:<br>fnr{1liti1-D.1¢ll: 14+] {<br>string 5:-<br>ﬁlm-s:<br>} illl‘lis‘lH:<br>forﬂnté 1-D: 1d]: 14+! {<br>string SF:<br>aim-s:<br>} natal-:4<br>int; tut - D:<br>forwair-astdm int:- p 1:. qr]<br>1ﬂp.second\ =- I)<br>hit +- p. salami:<br>ﬂout-«tut:<br>rah]m' D:<br>}<br>|
 
 Após isso, foi utilizado a função fastNlMeansDenoising do OpenCv para remover os ruídos das imagens utilizando uma média não local. Como pode ser observado abaixo, os poucos caractereces da imagem são realmente reconhecidos.
-  <img src="images/denoising.png" width="250px" height="400px">
 
-<p>
-“mum. dusxmn
-“mm. «In.
-mm nllrslalne m:
-
-in: mm) (
-m: u:
-um:
-npsnnm. m: In:
-mum in 14:; 1+.) (
-
-   
- 
-
-) lama.
-mum in 14:; 1+.) (
-
-)
-
-m: m .
-
-hull-Insulin. up u I.»
-"(p.nmm > )
-</p>
+| Código | Texto Reconhecido |
+|-------------|--------------|
+|<img src="images/denoising.png" width="250px" height="400px">|“mum. dusxmn<br>“mm. «In.<br>mm nllrslalne m:<br>in: mm) (<br>m: u:<br>um:<br>npsnnm. m: In:<br>mum in 14:; 1+.) (<br>) lama.<br>mum in 14:; 1+.) (<br>)<br>m: m .<br>hull-Insulin. up u I.»<br>"(p.nmm > )|
 
 Depois de alguns testes e estudos de transformações, foi possível obter um resultado do código mais próximo da imagem fazendo os seguintes processamentos:
   - Aumentar o tamanho da imagem, utilizando a função resize da biblioteca openCV, utlizando a interpolação cúbica
   - Remoção de ruídos para suavizar a imagem
   - Transformação morfológica de erosão.
   
-  <img src="images_output/sample2.png" width="300px" height="500px">
-  <p>
-  Texto reconhecido:
-  #include <iostream>
-#include <map>
-using namespace std;
-
-int main() {
-int N;
-cin>>N:
-nap<string. int> mp:
-for(int i=0; i<N; i++) {
-string 5;
-cin>>s:
-mp[s]++;
-}
-for(int i=0; i<N; i++) {
-string 5;
-cin>>s:
-mp[s]--;
-}
-int tot = 0;
-for(pair<string. int> p : mp)
-if(p.second > 0)
-tot += p.second:
-cout<<tot;
-return 0:
-
-}
-</p>
+| Código | Texto Reconhecido |
+|-------------|--------------|
+|<img src="images_output/sample2.png" width="300px" height="500px">|#include <iostream><br>#include <map><br>using namespace std;<br>int main() {<br>int N;<br>cin>>N:<br>nap<string. int> mp:<br>for(int i=0; i<N; i++) {<br>string 5;<br>cin>>s:<br>mp[s]++;<br>}<br>for(int i=0; i<N; i++) {<br>string 5;<br>cin>>s:<br>mp[s]--;<br>}<br>int tot = 0;<br>for(pair<string. int> p : mp)<br>if(p.second > 0)<br>tot += p.second:<br>cout<<tot;<br>return 0:<br>|
 
 Resultados
 
