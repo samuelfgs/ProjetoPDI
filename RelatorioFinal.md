@@ -21,7 +21,7 @@ Primeiro passo, do projeto foi capturar uma imagem e fazer o reconhecimento do t
 	
 | Código | Texto Reconhecido |
 |-------------|--------------|
-|<img src="images/equalization.png" width="250px" height="400px">|Texto reconhecido: <br>ﬁnctuda dust“<br>ﬁncmle up: . .<br>using namespaue std:<br>int: “in“ {<br>int: ll:<br>aim-:11:<br>lap-astring.1nt=- In:<br>fnr{1liti1-D.1¢ll: 14+] {<br>string 5:-<br>ﬁlm-s:<br>} illl‘lis‘lH:<br>forﬂnté 1-D: 1d]: 14+! {<br>string SF:<br>aim-s:<br>} natal-:4<br>int; tut - D:<br>forwair-astdm int:- p 1:. qr]<br>1ﬂp.second\ =- I)<br>hit +- p. salami:<br>ﬂout-«tut:<br>rah]m' D:<br>}<br>|
+|<img src="images/equalization.png" width="300px" height="450px">|Texto reconhecido: <br>ﬁnctuda dust“<br>ﬁncmle up: . .<br>using namespaue std:<br>int: “in“ {<br>int: ll:<br>aim-:11:<br>lap-astring.1nt=- In:<br>fnr{1liti1-D.1¢ll: 14+] {<br>string 5:-<br>ﬁlm-s:<br>} illl‘lis‘lH:<br>forﬂnté 1-D: 1d]: 14+! {<br>string SF:<br>aim-s:<br>} natal-:4<br>int; tut - D:<br>forwair-astdm int:- p 1:. qr]<br>1ﬂp.second\ =- I)<br>hit +- p. salami:<br>ﬂout-«tut:<br>rah]m' D:<br>}<br>|
 
 Após isso, foi utilizado a função fastNlMeansDenoising do OpenCv para remover os ruídos das imagens utilizando uma média não local. Como pode ser observado abaixo, os poucos caractereces da imagem são realmente reconhecidos.
 
@@ -36,7 +36,7 @@ Depois de alguns testes e estudos de transformações, foi possível obter um re
   
 | Código | Texto Reconhecido |
 |-------------|--------------|
-|<img src="images_output/sample2.png" width="250px" height="500px">|#include <iostream><br>#include <map><br>using namespace std;<br>int main() {<br>int N;<br>cin>>N:<br>nap<string. int> mp:<br>for(int i=0; i<N; i++) {<br>string 5;<br>cin>>s:<br>mp[s]++;<br>}<br>for(int i=0; i<N; i++) {<br>string 5;<br>cin>>s:<br>mp[s]--;<br>}<br>int tot = 0;<br>for(pair<string. int> p : mp)<br>if(p.second > 0)<br>tot += p.second:<br>cout<<tot;<br>return 0:<br>|
+|<img src="images_output/sample2.png" width="300px" height="500px">|#include <iostream><br>#include <map><br>using namespace std;<br>int main() {<br>int N;<br>cin>>N:<br>nap<string. int> mp:<br>for(int i=0; i<N; i++) {<br>string 5;<br>cin>>s:<br>mp[s]++;<br>}<br>for(int i=0; i<N; i++) {<br>string 5;<br>cin>>s:<br>mp[s]--;<br>}<br>int tot = 0;<br>for(pair<string. int> p : mp)<br>if(p.second > 0)<br>tot += p.second:<br>cout<<tot;<br>return 0:<br>|
 
 Resultados
 
