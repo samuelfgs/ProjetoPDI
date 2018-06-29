@@ -17,7 +17,8 @@ Primeiro passo, do projeto foi capturar uma imagem e fazer o reconhecimento do t
 
 
  Como pode ser observado, os resultados iniciais foram ruins. Para melhorar os resultados, foram utilizadas algumas técnicas aprendidas em aula, a fim de processar a imagem. 
-	Como as cores da sintaxe não fazem diferença no código, a imagem foi convertida para escala de cinza. Depois disso, a primeira técnica de realce implementada foi a de equalização de histogramas, porém o resultado não foi satisfatório
+	Como as cores da sintaxe não fazem diferença no código, a imagem foi convertida para escala de cinza. Depois disso, a primeira técnica de realce implementada foi a de equalização de histogramas, porém o resultado não foi satisfatório.
+	
 | Código | Texto Reconhecido |
 |-------------|--------------|
 |<img src="images/equalization.png" width="250px" height="400px">|Texto reconhecido: <br>ﬁnctuda dust“<br>ﬁncmle up: . .<br>using namespaue std:<br>int: “in“ {<br>int: ll:<br>aim-:11:<br>lap-astring.1nt=- In:<br>fnr{1liti1-D.1¢ll: 14+] {<br>string 5:-<br>ﬁlm-s:<br>} illl‘lis‘lH:<br>forﬂnté 1-D: 1d]: 14+! {<br>string SF:<br>aim-s:<br>} natal-:4<br>int; tut - D:<br>forwair-astdm int:- p 1:. qr]<br>1ﬂp.second\ =- I)<br>hit +- p. salami:<br>ﬂout-«tut:<br>rah]m' D:<br>}<br>|
