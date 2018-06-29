@@ -29,7 +29,7 @@ Após isso, foi utilizado a função fastNlMeansDenoising do OpenCv para remover
 |-------------|--------------|
 |<img src="images/denoising.png" width="250px" height="400px">|“mum. dusxmn<br>“mm. «In.<br>mm nllrslalne m:<br>in: mm) (<br>m: u:<br>um:<br>npsnnm. m: In:<br>mum in 14:; 1+.) (<br>) lama.<br>mum in 14:; 1+.) (<br>)<br>m: m .<br>hull-Insulin. up u I.»<br>"(p.nmm > )|
 
-Depois de alguns testes e estudos de transformações, foi possível obter um resultado do código mais próximo da imagem fazendo os seguintes processamentos:
+Depois de alguns testes e pesquisas de transformações, foi possível obter um resultado mais próximo do código esperado, usando as seguintes operações:
   - Aumentar o tamanho da imagem, utilizando a função resize da biblioteca openCV, utlizando a interpolação cúbica
   - Remoção de ruídos para suavizar a imagem
   - Transformação morfológica de erosão.
