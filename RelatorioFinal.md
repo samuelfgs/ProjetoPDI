@@ -13,40 +13,14 @@ Primeiro passo, do projeto foi capturar uma imagem e fazer o reconhecimento do t
 
 | Código | Texto Reconhecido |
 |-------------|--------------|
-|<img src="images/sample2.png">| <Texto reconhecido:<br>mam: Gunman<br>mum: «at»<br>uslng namsvate 5m;<br>m lam” (<br>m<br>(111))”<br>markstnnq. m) In;<br>mom rB' 14:; m) ( <br> mm; 5; <br>Ms!»<br>)<br>mom ;<br>smug s;<br>wlsl<br>- 14:: m) (<br>)  <br>m m <br>fuﬂnalkstnny. 1n!) .. : up)<br>”u. mun-1 ) aw<br>m K n.5unnd;<br>(“mm <br>return |
+|<img src="images/sample2.png">|Texto reconhecido:<br>mam: Gunman<br>mum: «at»<br>uslng namsvate 5m;<br>m lam” (<br>m<br>(111))”<br>markstnnq. m) In;<br>mom rB' 14:; m) ( <br> mm; 5; <br>Ms!»<br>)<br>mom ;<br>smug s;<br>wlsl<br>- 14:: m) (<br>)  <br>m m <br>fuﬂnalkstnny. 1n!) .. : up)<br>”u. mun-1 ) aw<br>m K n.5unnd;<br>(“mm <br>return |
 
 
  Como pode ser observado, os resultados iniciais foram ruins. Para melhorar os resultados, foram utilizadas algumas técnicas aprendidas em aula, a fim de processar a imagem. 
 	Como as cores da sintaxe não fazem diferença no código, a imagem foi convertida para escala de cinza. Depois disso, a primeira técnica de realce implementada foi a de equalização de histogramas, porém o resultado não foi satisfatório
-  
-  
-  <img src="images/equalization.png" width="250px" height="400px">
-  <p> Texto reconhecido: 
-  ﬁnctuda dust“
-ﬁncmle up: . .
-using namespaue std:
-
-int: “in“ {
-int: ll:
-aim-:11:
-lap-astring.1nt=- In:
-fnr{1liti1-D.1¢ll: 14+] {
-string 5:-
-ﬁlm-s:
-} illl‘lis‘lH:
-forﬂnté 1-D: 1d]: 14+! {
-string SF:
-aim-s:
-} natal-:4
-int; tut - D:
-forwair-astdm int:- p 1:. qr]
-1ﬂp.second\ =- I)
-hit +- p. salami:
-ﬂout-«tut:
-rah]m' D:
-
-}
-</p>
+| Código | Texto Reconhecido |
+|-------------|--------------|
+|<img src="images/equalization.png" width="250px" height="400px">|Texto reconhecido: <br>ﬁnctuda dust“<br>ﬁncmle up: . .<br>using namespaue std:<br>int: “in“ {<br>int: ll:<br>aim-:11:<br>lap-astring.1nt=- In:<br>fnr{1liti1-D.1¢ll: 14+] {<br>string 5:-<br>ﬁlm-s:<br>} illl‘lis‘lH:<br>forﬂnté 1-D: 1d]: 14+! {<br>string SF:<br>aim-s:<br>} natal-:4<br>int; tut - D:<br>forwair-astdm int:- p 1:. qr]<br>1ﬂp.second\ =- I)<br>hit +- p. salami:<br>ﬂout-«tut:<br>rah]m' D:<br>}<br>|
 
 Após isso, foi utilizado a função fastNlMeansDenoising do OpenCv para remover os ruídos das imagens utilizando uma média não local. Como pode ser observado abaixo, os poucos caractereces da imagem são realmente reconhecidos.
   <img src="images/denoising.png" width="250px" height="400px">
