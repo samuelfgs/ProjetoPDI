@@ -36,7 +36,7 @@ Depois de alguns testes e estudos de transformações, foi possível obter um re
   
 | Código | Texto Reconhecido |
 |-------------|--------------|
-|<img src="images_output/sample2.png" width="300px" height="500px">|#include <iostream><br>#include <map><br>using namespace std;<br>int main() {<br>int N;<br>cin>>N:<br>nap<string. int> mp:<br>for(int i=0; i<N; i++) {<br>string 5;<br>cin>>s:<br>mp[s]++;<br>}<br>for(int i=0; i<N; i++) {<br>string 5;<br>cin>>s:<br>mp[s]--;<br>}<br>int tot = 0;<br>for(pair<string. int> p : mp)<br>if(p.second > 0)<br>tot += p.second:<br>cout<<tot;<br>return 0:<br>|
+|<img src="images_output/sample2.png" width="250px" height="500px">|#include <iostream><br>#include <map><br>using namespace std;<br>int main() {<br>int N;<br>cin>>N:<br>nap<string. int> mp:<br>for(int i=0; i<N; i++) {<br>string 5;<br>cin>>s:<br>mp[s]++;<br>}<br>for(int i=0; i<N; i++) {<br>string 5;<br>cin>>s:<br>mp[s]--;<br>}<br>int tot = 0;<br>for(pair<string. int> p : mp)<br>if(p.second > 0)<br>tot += p.second:<br>cout<<tot;<br>return 0:<br>|
 
 Resultados
 
