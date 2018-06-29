@@ -15,6 +15,39 @@ Primeiro passo, do projeto foi capturar uma imagem e fazer o reconhecimento do t
 	Disneyasdasd
 	asdasda
 	sdasdasd
+	Disneyasdasd
+	asdasda
+	sdasdasd
+	Disneyasdasd
+	asdasda
+	sdasdasd
+	Disneyasdasd
+	asdasda
+	sdasdasd
+	Disneyasdasd
+	asdasda
+	sdasdasd
+	Disneyasdasd
+	asdasda
+	sdasdasd
+	Disneyasdasd
+	asdasda
+	sdasdasd
+	Disneyasdasd
+	asdasda
+	sdasdasd
+	Disneyasdasd
+	asdasda
+	sdasdasd
+	Disneyasdasd
+	asdasda
+	sdasdasd
+	Disneyasdasd
+	asdasda
+	sdasdasd
+	Disneyasdasd
+	asdasda
+	sdasdasd
 </p>
   <img src="images/sample2.png">
   <p>
