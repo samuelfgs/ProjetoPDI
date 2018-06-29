@@ -10,48 +10,9 @@ Solução
 
 Para a implementação do projeto foi utilizado a biblioteca Tesseract, da Google, de OCR e a biblioteca OpenCv par Python.
 Primeiro passo, do projeto foi capturar uma imagem e fazer o reconhecimento do texto, usando o Tesseract.
-<p align="left">
-  <img src="images/sample2.png">
-	Disneyasdasd
-	asdasda
-	sdasdasd
-	Disneyasdasd
-	asdasda
-	sdasdasd
-	Disneyasdasd
-	asdasda
-	sdasdasd
-	Disneyasdasd
-	asdasda
-	sdasdasd
-	Disneyasdasd
-	asdasda
-	sdasdasd
-	Disneyasdasd
-	asdasda
-	sdasdasd
-	Disneyasdasd
-	asdasda
-	sdasdasd
-	Disneyasdasd
-	asdasda
-	sdasdasd
-	Disneyasdasd
-	asdasda
-	sdasdasd
-	Disneyasdasd
-	asdasda
-	sdasdasd
-	Disneyasdasd
-	asdasda
-	sdasdasd
-	Disneyasdasd
-	asdasda
-	sdasdasd
-</p>
-  <img src="images/sample2.png">
-  <p>
-  Texto reconhecido:
+| FirstHeader | SecondHeader |
+|-------------|--------------|
+|<img src="images/sample2.png">| Texto reconhecido:
 	mam: Gunman
   mum: «at»  
   uslng namsvate 5m;
@@ -74,7 +35,7 @@ Primeiro passo, do projeto foi capturar uma imagem e fazer o reconhecimento do t
 	m K n.5unnd;  
 	(“mm  
 	return  
- </p>
+ |
  Como pode ser observado, os resultados iniciais foram ruins. Para melhorar os resultados, foram utilizadas algumas técnicas aprendidas em aula, a fim de processar a imagem. 
 	Como as cores da sintaxe não fazem diferença no código, a imagem foi convertida para escala de cinza. Depois disso, a primeira técnica de realce implementada foi a de equalização de histogramas, porém o resultado não foi satisfatório
   
