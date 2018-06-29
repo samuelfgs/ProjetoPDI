@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+const int maxn=300001;
+typedef long long 11;
+int main() {
+ios_base::sync;with_stdio(0);
+cin.tie(0);
+cout.tie(0);
+11 n,k,s,p;
+cin>>k>>n>>s>>p;
+11 col=(n+s-1)/s;
+11 z=k'c01;
+11 I=((z+p-1)/p);
+cout<<I;

@@ -1,0 +1,22 @@
+#ifndef 0NLINE_JUDGE
+#define DEBUG 1
+#else
+
+#define DEBUG 0
+#endif
+
+int main(int argc, char *argv[]) {
+std::cin.sync_with_stdio(false):std::cin.tie(nullptr);
+int n;
+#if DEBUG
+freopen("/tmp/in.txt", "r", stdin);
+while(cin >> n)
+
+#else
+cin >> n;
+#endif
+{
+//Mahmoud: 2k, Ehab, 2k+1
+if(n>1 && ((n%2)==0)) cout << "Mahmoud" << endl;
+} else cout << "Ehab" << endl;
+return 0;

@@ -1,0 +1,25 @@
+#include <iostream>
+#include <map>
+using namespace std;
+
+int main() {
+int N;
+cin>>N;
+map<string. int> mp;
+for(int i=6; i<N; i++) {
+string 5;
+cin>>s;
+mpls]++:
+}
+for(int i=6; i<N; i++) {
+string 5;
+cin>>s;
+mpls]--;
+}
+int tot = 6;
+for(pair<string. int> p : mp)
+if(p.second > 9)
+tot += p.5econd;
+cout<<tot;
+return 6;
+}

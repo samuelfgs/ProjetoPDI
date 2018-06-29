@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+int N;
+cin >> M;
+int ans=(N/100);N%=100;
+ans+=(N/20);N%=20;
+ans+=(N/10);N%=10;
+ans+=(N/S);N%=S;
+ans+=N;
+cout << ans << '\n';

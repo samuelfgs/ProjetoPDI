@@ -1,0 +1,29 @@
+int main()
+
+{
+// freopen("input.txt", "r", stdin);
+// freopen("output.txt", "w", stdout);
+
+scanf("% %d", &n, &k);
+for (int i = 0; i < n; i++)
+scanf("%d", &a[i]);
+for (int i = 0; i < n; i++) {
+int x;
+scanf("%d", &x);
+if (x) {
+pplus += a[i];
+a[i] = 0;
+}
+1
+1nt sum = 0;
+for (int i = 0; i < k; i++)
+sum += a[i];
+ans = sum;
+for (int i = k; i < n; i++) {
+sum += a[i] - ali - k];
+ans = max(ans, sum);
+
+}
+printf("%d\n", ans + pplus);
+
+return 0;
